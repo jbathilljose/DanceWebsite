@@ -1,0 +1,58 @@
+doctype html 
+html
+    head 
+        title My Dance Academy
+        style 
+            include ../static/style.css 
+    body 
+        nav#navbar.first 
+            ul
+                div#logo
+                    img(src='./static/logo.png')
+                    | MDA 
+                li #[a(href='/') Home]
+                li #[a(href='/') About]
+                li #[a(href='/') Service]
+                li #[a(href='/') Class Info]
+                li #[a(href='/') Contact Us]
+        
+        section#introSection 
+            div Welcome To The Dance Academy 
+            div.small Eat Drink and Dance
+
+        section#missionSection
+            h2 Our Mission 
+            div.container
+                div.card
+                    h3 Attitude
+                    div.card-box
+                        div.card-img
+                            img(src="./static/1.png")
+                        div.card-content
+                            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, dignissimos.
+                div.card
+                    h3 Beautiful
+                    div.card-box
+                        div.card-img
+                            img(src="./static/2.png")
+                        div.card-content
+                            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, dignissimos.
+                div.card
+                    h3 Creativity
+                    div.card-box
+                        div.card-img
+                            img(src="./static/3.png")
+                        div.card-content
+                            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, dignissimos.
+        section#sponsorSection 
+            h2 Our Sponsors 
+            div#sponsors
+                img(src="./static/logo1.png", alt="Sponsor Image").sponsor
+                img(src="./static/logo2.png", alt="Sponsor Image").sponsor
+                img(src="./static/logo3.png", alt="Sponsor Image").sponsor
+                img(src="./static/logo4.png", alt="Sponsor Image", class="sponsor")
+        
+        footer#footer 
+            |CopyRight © 2021 | MyDanceAcademy.com | All Rights reserved
+        script 
+            include ../static/script.js 

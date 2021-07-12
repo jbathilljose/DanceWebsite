@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* background: rgb(243, 238, 238); */
+}
+
+#logo{
+    display: flex;
+    color:white;
+    align-items: center;
+    margin: 0px 14px;
+    font-size: 13px;
+    margin-right: 39px;
+}
+#logo:hover{
+    cursor: pointer;
+    filter: invert(1);
+    color: black;
+}
+#logo img{
+    height: 40px;
+    filter: invert(1);
+}
+#navbar{
+    background-color: rgb(239 66 66);
+    padding: 25px 5px;
+    /* height: 70px; */
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: cursive;
+    font-size: 17px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+#navbar li{
+    list-style: none;
+
+}
+
+#navbar li a{
+    text-decoration: none;
+    padding: 7px 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+#navbar li a:hover{
+    color: black;
+
+}
+
+#introSection{
+    color: white;
+    height: 440px;
+    background: url('./static/bg3.jpg') center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 51px;
+    font-weight: bold;
+}
+
+#introSection div.small{
+    font-size: 39px;
+    margin-bottom: 48px;
+    margin-top: -17px;
+}
+
+#sponsorSection{
+    height: 300px;
+    background-color:#da4949b0;
+    
+
+}
+#missionSection{
+    height: 310px;
+    background-color:#49da92b0;
+    
+    }
+
+#missionSection h2{
+    text-align: center;
+    font-family: 'Reggae One', cursive;
+    padding-top: 22px;
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img {
+    height: 121px;
+    padding: 3px 10px;
+    margin: 3px -2px;
+}
+.card-img img{
+    height: inherit;
+}
+
+.card-content p{
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 10px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    height: 80%;
+}
+.card {
+    border: 2px solid black;
+    border-radius: 8px;
+    width: 27%;
+    height: 89%;
+    margin: 10px 17px;
+    display: inline-block;
+}
+.card h3{
+    text-align: center;
+    margin: 5px;
+    margin-top: 10px;
+    font-size: 25px;
+}
+#sponsorSection h2{
+    text-align: center;
+    padding-top: 22px;
+    font-family: 'Reggae One', cursive;
+}
+
+#sponsors{
+    height: 191px;
+    margin: 15px auto;
+    max-width: 1000px;
+}
+.sponsor{
+    height: 80%;
+    margin: 15px 27px;
+}
+#footer{
+    height: 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 19px;
+    font-family: cursive;
+
+}

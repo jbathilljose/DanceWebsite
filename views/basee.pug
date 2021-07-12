@@ -1,0 +1,20 @@
+doctype html 
+html
+  head
+    title My Dance Academy 
+    block scripts 
+    block style 
+  body
+    nav#navbar.first 
+        ul
+            div#logo
+                img(src='./static/logo.png')
+                | MDA 
+            li #[a(href='/') Home]
+            li #[a(href='/') About]
+            li #[a(href='/') Service]
+            li #[a(href='/') Class Info]
+            li #[a(href='/contact') Contact Us]
+    block content
+    footer#footer 
+            |CopyRight © 2021 | MyDanceAcademy.com | All Rights reserved
